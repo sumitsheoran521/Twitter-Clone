@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link rel="icon" href="./images/favico.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <aside>
+            <a href="#" class="logo"><i class="fab fa-twitter"></i></a>
+            <ul>
+                <li><a href="/"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#"><i class="fa-solid fa-hashtag"></i> Explore</a></li>
+                <li><a href="#"><i class="fa-solid fa-bell"></i> Notififaction</a></li>
+                <li><a href="#"><i class="fa-solid fa-message"></i> Message</a></li>
+                <li><a href="#"><i class="fa-solid fa-bookmark"></i> Bookmark</a></li>
+                <li><a href="#"><i class="fa-solid fa-clipboard-list"></i> List</a></li>
+                <li class="li-active"><a href="profile.html"><i class="fa-solid fa-user"></i> Profile</a></li>
+                <li><a href="#"><i class="fa-solid fa-ellipsis"></i> More</a></li>
+            </ul>
+            <button>Tweet</button>
+        </aside>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search on twitter...">
+                </div>
+                <div class="user">
+                <h6>Hey, Sumit!</h6>
+                <img src="./images/user1.jpg" alt="profile-image">
+                </div>
+            </nav>
+            <div class="profile-post-follow-box">
+                <div class="profile-box">
+                    <div class="profile-card">
+                        <img src="./images/Twitter_Verified_Badge.svg.png" alt="badge" class="blue-tick-profileCard">
+                        <img src="./images/user1.jpg" alt="" class="profile-img">
+                        <h5>Sumit Sheoran</h5>
+                        <h6>@sumitsheoran521</h6>
+                        <address>
+                            <a href="#">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Hisar, Haryana
+                            </a>
+                            <a href="#">
+                                <i class="fa-solid fa-earth-asia"></i>
+                            </a>
+                        </address>
+                        <p>Web-Developer</p>
+                        <div class="data">
+                            <div class="data-card">
+                                <p>Tweets</p>
+                                <h4>618</h4>
+                            </div>
+                            <div class="data-card">
+                                <p>Followers</p>
+                                <h4>19.7k</h4>
+                            </div>
+                            <div class="data-card">
+                                <p>Following</p>
+                                <h4>249</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="activity-box">
+                        <div class="activity-card-box">
+                            <i class="fa-solid fa-eye"></i>
+                            <h6>Activity</h6>
+                        </div>
+                        <div class="activity-card-box">
+                            <i class="fa-solid fa-bolt"></i>
+                            <h6>Moments</h6>
+                        </div>
+                        <div class="activity-card-box">
+                            <i class="fa-solid fa-user-group"></i>
+                            <h6>Friends</h6>
+                        </div>
+                        <div class="activity-card-box">
+                            <i class="fa-solid fa-gear"></i>
+                            <h6>Edit Profile</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-follow-box">
+                    <div class="post-box">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Tweets</a></li>
+                                <li><a href="#">Tweets & Followers</a></li>
+                                <li><a href="#">Media</a></li>
+                                <li><a href="#">Likes</a></li>
+                            </ul>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </nav>
+                        <div class="post-main-box">
+                            
+                            <div class="post-card-box">
+                                <div class="post-profile">
+                                    <img src="./images/user1.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h6 class="retweet">
+                                        <i class="fa-solid fa-repeat"></i>
+                                        RANDEEP HOODA RETWEETED
+                                    </h6>
+                                    <div class="user-name-time">
+                                        <h5>Sumit Sheoran <img src="./images/Twitter_Verified_Badge.svg.png"><p>@sumitsheoran521</p></h5>
+                                        <h6><i class="fa-regular fa-clock"></i> 16 mins</h6>
+                                    </div>
+                                    <h3>Very good words...</h3>
+                                    <div class="retweet-content-box">
+                                        <div class="user-name-time">
+                                            <h5><img src="./images/randeep hooda.jpg" alt=""> Randeep Hooda <p>@RandeepHooda</p></h5>
+                                            <h6><i class="fa-regular fa-clock"></i> 1 hour</h6>
+                                        </div>
+                                        <h3>कदे खेत मैं,<br>
+                                            कदे फ़ौज मैं,<br>
+                                            कदे चौधर मैं पावैगा..<br>
+                                            पर एक बात पक्की  सै,<br>
+                                            हरियाणा का आदमी हमेशा मौज मैं पावैगा।। 😜😅🤗🤠<br>
+                                            हरियाणा दिवस की बधाई हो जी।<br>
+                                            #HaryanaDay #HaryanaBoy</h3>
+                                    </div>
+                                    <div class="tweet-card-social-data">
+                                        <div class="tweet-social-card">
+                                            <i class="fa-solid fa-comment"></i>
+                                            <span>412</span>
+                                        </div>
+                                        <div class="tweet-social-card">
+                                            <i class="fa-solid fa-repeat"></i>
+                                            <span>101</span>
+                                        </div>
+                                        <div class="tweet-social-card">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>1.2k</span>
+                                        </div>
+                                        <div class="tweet-social-card">
+                                            <i class="fa-solid fa-share"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-card-box">
+                                <div class="post-profile">
+                                    <img src="./images/user1.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="user-name-time">
+                                        <h5>Sumit Sheoran <img src="./images/Twitter_Verified_Badge.svg.png"><p>@sumitsheoran521</p></h5>
+                                        <h6><i class="fa-regular fa-clock"></i> Oct 24</h6>
+                                    </div>
+                                    <h3>Love and light to all around the world 🪔✨
+                                        <br>
+                                        #HappyDiwali #Diwali2022</h3>
+                                    <div class="img-post-box">
+                                        <img src="./images/diwali pic 1.jpeg" alt="">
+                                        <img src="./images/diwali pic 2.jpeg" alt="">
+                                        <img src="./images/diwali pic 3.jpeg" alt="">
+                                    </div>
+                                    <div class="tweet-card-social-data">
+                                        <div class="tweet-social-card">
+                                            <i class="fa-solid fa-comment"></i>
+                                            <span>246</span>
+                                        </div>
+                                        <div class="tweet-social-card">
+                                            <i class="fa-solid fa-repeat"></i>
+                                            <span>119</span>
+                                        </div>
+                                        <div class="tweet-social-card">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>3.1k</span>
+                                        </div>
+                                        <div class="tweet-social-card">
+                                            <i class="fa-solid fa-share"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-card-box">
+                                <div class="post-profile">
+                                    <img src="./images/user1.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <div class="user-name-time">
+                                        <h5>Sumit Sheoran <img src="./images/Twitter_Verified_Badge.svg.png"><p>@sumitsheoran521</p></h5>
+                                        <h6><i class="fa-regular fa-clock"></i> Oct 24</h6>
+                                    </div>
+                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid mollitia minima veritatis, obcaecati numquam nam iste tenetur nostrum reprehenderit fugit culpa in molestiae distinctio libero officiis deserunt amet rem consectetur.</h3>
+                                    <div class="tweet-card-social-data">
+                                        <div class="tweet-social-card">
+                                            <i class="fa-solid fa-comment"></i>
+                                            <span>126</span>
+                                        </div>
+                                        <div class="tweet-social-card">
+                                            <i class="fa-solid fa-repeat"></i>
+                                            <span>91</span>
+                                        </div>
+                                        <div class="tweet-social-card">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>10.1k</span>
+                                        </div>
+                                        <div class="tweet-social-card">
+                                            <i class="fa-solid fa-share"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="follow-box">
+                        <div class="trend-for-you">
+                            <nav>
+                                <h6>Trends for you</h6>
+                                <i class="fa-solid fa-gear"></i>
+                            </nav>
+                            <div class="trend-box">
+                                <div class="rate">
+                                    <li><a href="#">#india@75 <br><p>991k tweets</p></a><i class="fa-solid fa-chevron-down"></i></li>
+                                    <div class="interest">
+                                        <button class="smile"><i class="fa-solid fa-face-smile"></i>Interested</button>
+                                        <button class="frown"><i class="fa-solid fa-face-frown"></i>Not Interested</button>
+                                    </div>
+                                </div>
+                                <div class="rate">
+                                    <li><a href="#">#worldcup2022 <br><p>834k tweets</p></a><i class="fa-solid fa-chevron-down"></i></li>
+                                    <div class="interest">
+                                        <button class="smile"><i class="fa-solid fa-face-smile"></i>Interested</button>
+                                        <button class="frown"><i class="fa-solid fa-face-frown"></i>Not Interested</button>
+                                    </div>
+                                </div>
+                                <div class="rate">
+                                    <li><a href="#">#fifa2022 <br><p>621k tweets</p></a><i class="fa-solid fa-chevron-down"></i></li>
+                                    <div class="interest">
+                                        <button class="smile"><i class="fa-solid fa-face-smile"></i>Interested</button>
+                                        <button class="frown"><i class="fa-solid fa-face-frown"></i>Not Interested</button>
+                                    </div>
+                                </div>
+                                <div class="rate">
+                                    <li><a href="#">#viratkohli <br><p>279k tweets</p></a><i class="fa-solid fa-chevron-down"></i></li>
+                                    <div class="interest">
+                                        <button class="smile"><i class="fa-solid fa-face-smile"></i>Interested</button>
+                                        <button class="frown"><i class="fa-solid fa-face-frown"></i>Not Interested</button>
+                                    </div>
+                                </div>
+                                <button class="see-more">SEE MORE</button>
+                            </div>
+                        </div>
+                        <div class="you-should-follow trend-for-you">
+                            <nav>
+                                <h6>You Should Follow</h6>
+                                <i class="fa-solid fa-rotate-right"></i>
+                            </nav>
+                            <div class="follow-box">
+                                <div class="follow-profile-name">
+                                    <img src="./images/virender-sehwag.webp" alt="" class="follow-profile">
+                                    <div class="user-name">
+                                        <div class="user-name-follow">
+                                            <h6>Virender Sehwag</h6>
+                                            <img src="./images/Twitter_Verified_Badge.svg.png" alt="">
+                                        </div>
+                                        <p>@virendersehwag</p>
+                                    </div>
+                                </div>
+                                <button>Follow</button>
+                            </div>
+                            <div class="follow-box">
+                                <div class="follow-profile-name">
+                                    <img src="./images/dr. s jai.jpg" alt="" class="follow-profile">
+                                    <div class="user-name">
+                                        <div class="user-name-follow">
+                                            <h6>Dr. S. Jaishankar</h6>
+                                            <img src="./images/Twitter_Verified_Badge.svg.png" alt="">
+                                        </div>
+                                        <p>@DrSJaishankar</p>
+                                    </div>
+                                </div>
+                                <button>Follow</button>
+                            </div>
+                            <div class="follow-box">
+                                <div class="follow-profile-name">
+                                    <img src="./images/amitabh bachan.jpg" alt="" class="follow-profile">
+                                    <div class="user-name">
+                                        <div class="user-name-follow">
+                                            <h6>Amitabh Bachchan</h6>
+                                            <img src="./images/Twitter_Verified_Badge.svg.png" alt="">
+                                        </div>
+                                        <p>@SrBachchan</p>
+                                    </div>
+                                </div>
+                                <button>Follow</button>
+                            </div>
+                            <button class="see-more">SEE MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <script src="./script.js"></script>
+</body>
+</html>
